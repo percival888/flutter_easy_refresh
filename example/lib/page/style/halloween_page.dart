@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class HalloweenPage extends StatefulWidget {
-  const HalloweenPage({Key? key}) : super(key: key);
+  const HalloweenPage({super.key});
 
   @override
   State<HalloweenPage> createState() => _HalloweenPageState();

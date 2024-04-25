@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SupportMePage extends StatefulWidget {
-  const SupportMePage({Key? key}) : super(key: key);
+  const SupportMePage({super.key});
 
   @override
   State<SupportMePage> createState() => _SupportMePageState();

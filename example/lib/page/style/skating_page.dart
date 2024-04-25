@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class SkatingPage extends StatefulWidget {
-  const SkatingPage({Key? key}) : super(key: key);
+  const SkatingPage({super.key});
 
   @override
   State<SkatingPage> createState() => _SkatingPageState();

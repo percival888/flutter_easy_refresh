@@ -1,5 +1,3 @@
-/// Design from https://dribbble.com/shots/15283144-Pull-to-change
-
 import 'dart:math' as math;
 
 import 'package:easy_refresh/easy_refresh.dart';
@@ -9,8 +7,9 @@ import 'package:example/widget/skeleton_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+/// Design from https://dribbble.com/shots/15283144-Pull-to-change
 class ThemeSwitchPage extends StatefulWidget {
-  const ThemeSwitchPage({Key? key}) : super(key: key);
+  const ThemeSwitchPage({super.key});
 
   @override
   State<ThemeSwitchPage> createState() => _ThemeSwitchPageState();
@@ -378,12 +377,11 @@ class _Fireworks extends StatefulWidget {
   final List<_FireworkLineModel> lines;
 
   const _Fireworks({
-    Key? key,
     required this.controller,
     required this.color,
     required this.pointers,
     required this.lines,
-  }) : super(key: key);
+  });
 
   @override
   State<_Fireworks> createState() => _FireworksState();

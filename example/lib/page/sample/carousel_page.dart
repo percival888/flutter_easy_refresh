@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class CarouselPage extends StatefulWidget {
-  const CarouselPage({Key? key}) : super(key: key);
+  const CarouselPage({super.key});
 
   @override
   State<CarouselPage> createState() => _CarouselPageState();
@@ -66,8 +66,8 @@ class _CarouselPageState extends State<CarouselPage> {
           slivers: [
             SliverToBoxAdapter(
               child: EasyRefresh(
-                header: MaterialHeader(),
-                footer: MaterialFooter(),
+                header: const MaterialHeader(),
+                footer: const MaterialFooter(),
                 onRefresh: () async {
                   await Future.delayed(const Duration(seconds: 2), () {
                     if (mounted) {

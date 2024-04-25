@@ -3,7 +3,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class PageViewPage extends StatefulWidget {
-  const PageViewPage({Key? key}) : super(key: key);
+  const PageViewPage({super.key});
 
   @override
   State<PageViewPage> createState() => _PageViewPageState();

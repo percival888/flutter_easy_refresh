@@ -139,6 +139,9 @@ class _MaterialIndicatorState extends State<_MaterialIndicator> {
 
   /// Build [RefreshProgressIndicator].
   Widget _buildIndicator() {
+    if (_offset <= 0) {
+      return const SizedBox();
+    }
     return Container(
       alignment: _axis == Axis.vertical
           ? (widget.reverse ? Alignment.topCenter : Alignment.bottomCenter)

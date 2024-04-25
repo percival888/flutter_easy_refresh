@@ -6,7 +6,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class ListenerHeaderPage extends StatefulWidget {
-  const ListenerHeaderPage({Key? key}) : super(key: key);
+  const ListenerHeaderPage({super.key});
 
   @override
   State<ListenerHeaderPage> createState() => _ListenerHeaderPageState();

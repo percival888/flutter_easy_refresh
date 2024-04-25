@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class PhoenixPage extends StatefulWidget {
-  const PhoenixPage({Key? key}) : super(key: key);
+  const PhoenixPage({super.key});
 
   @override
   State<PhoenixPage> createState() => _PhoenixPageState();

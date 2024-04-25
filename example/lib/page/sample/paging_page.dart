@@ -5,7 +5,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 
 class PagingPage extends StatefulWidget {
-  const PagingPage({Key? key}) : super(key: key);
+  const PagingPage({super.key});
 
   @override
   State<PagingPage> createState() => _PagingPageState();

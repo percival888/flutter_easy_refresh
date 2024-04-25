@@ -5,7 +5,7 @@ import 'package:easy_refresh/src/painter/paths_painter.dart';
 /// List item.
 class ListItem extends StatelessWidget {
   const ListItem({
-    Key? key,
+    super.key,
     required this.title,
     this.subtitle,
     this.leading,
@@ -15,7 +15,7 @@ class ListItem extends StatelessWidget {
     this.onTap,
     this.selected = false,
     this.divider = false,
-  }) : super(key: key);
+  });
 
   final String title;
 

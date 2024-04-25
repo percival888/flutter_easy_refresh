@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class SquatsPage extends StatefulWidget {
-  const SquatsPage({Key? key}) : super(key: key);
+  const SquatsPage({super.key});
 
   @override
   State<SquatsPage> createState() => _SquatsPageState();

@@ -5,7 +5,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 
 class RefreshOnStartPage extends StatefulWidget {
-  const RefreshOnStartPage({Key? key}) : super(key: key);
+  const RefreshOnStartPage({super.key});
 
   @override
   State<RefreshOnStartPage> createState() => _RefreshOnStartPageState();

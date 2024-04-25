@@ -8,7 +8,7 @@ import 'package:get/get.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class BezierPage extends StatefulWidget {
-  const BezierPage({Key? key}) : super(key: key);
+  const BezierPage({super.key});
 
   @override
   State<BezierPage> createState() => _BezierPageState();

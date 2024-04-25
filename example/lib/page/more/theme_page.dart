@@ -1,6 +1,5 @@
 import 'package:example/widget/list_item.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 class ThemeModel {
@@ -139,7 +138,7 @@ class ThemeController extends GetxController {
 }
 
 class ThemePage extends StatefulWidget {
-  const ThemePage({Key? key}) : super(key: key);
+  const ThemePage({super.key});
 
   @override
   State<ThemePage> createState() => _ThemePageState();

@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class BezierCirclePage extends StatefulWidget {
-  const BezierCirclePage({Key? key}) : super(key: key);
+  const BezierCirclePage({super.key});
 
   @override
   State<BezierCirclePage> createState() => _BezierCirclePageState();

@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class DeliveryPage extends StatefulWidget {
-  const DeliveryPage({Key? key}) : super(key: key);
+  const DeliveryPage({super.key});
 
   @override
   State<DeliveryPage> createState() => _DeliveryPageState();

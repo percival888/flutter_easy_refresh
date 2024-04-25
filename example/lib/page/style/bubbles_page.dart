@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class BubblesPage extends StatefulWidget {
-  const BubblesPage({Key? key}) : super(key: key);
+  const BubblesPage({super.key});
 
   @override
   State<BubblesPage> createState() => _BubblesPageState();

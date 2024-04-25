@@ -1,5 +1,9 @@
-## Next
-fix: Issue during build when IndicatorStateListenable rebinds IndicatorNotifier [#607](https://github.com/xuelongqy/flutter_easy_refresh/issues/607).
+## 3.3.5+1
+- fix: Indicator properties cannot be updated [#818](https://github.com/xuelongqy/flutter_easy_refresh/issues/818).
+
+## 3.3.5
+- fix: Material style performance optimization [#814](https://github.com/xuelongqy/flutter_easy_refresh/issues/814).
+- fix: Issue during build when IndicatorStateListenable rebinds IndicatorNotifier [#607](https://github.com/xuelongqy/flutter_easy_refresh/issues/607).
 
 ## 3.3.4
 - fix: EasyPaging.itemBuilder type inference [#762](https://github.com/xuelongqy/flutter_easy_refresh/issues/762).

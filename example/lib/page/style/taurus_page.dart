@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class TaurusPage extends StatefulWidget {
-  const TaurusPage({Key? key}) : super(key: key);
+  const TaurusPage({super.key});
 
   @override
   State<TaurusPage> createState() => _TaurusPageState();

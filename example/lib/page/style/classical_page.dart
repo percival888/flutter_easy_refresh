@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class ClassicPage extends StatefulWidget {
-  const ClassicPage({Key? key}) : super(key: key);
+  const ClassicPage({super.key});
 
   @override
   State<ClassicPage> createState() => _ClassicPageState();

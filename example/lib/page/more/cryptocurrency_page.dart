@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
 class CryptocurrencyPage extends StatefulWidget {
-  const CryptocurrencyPage({Key? key}) : super(key: key);
+  const CryptocurrencyPage({super.key});
 
   @override
   State<CryptocurrencyPage> createState() => _CryptocurrencyPageState();

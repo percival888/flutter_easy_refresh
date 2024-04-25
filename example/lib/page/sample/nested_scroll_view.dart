@@ -7,7 +7,7 @@ import 'package:extended_nested_scroll_view/extended_nested_scroll_view.dart';
 import 'package:get/get.dart';
 
 class NestedScrollViewPage extends StatefulWidget {
-  const NestedScrollViewPage({Key? key}) : super(key: key);
+  const NestedScrollViewPage({super.key});
 
   @override
   NestedScrollViewPageState createState() {

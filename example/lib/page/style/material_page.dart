@@ -7,7 +7,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class MaterialIndicatorPage extends StatefulWidget {
-  const MaterialIndicatorPage({Key? key}) : super(key: key);
+  const MaterialIndicatorPage({super.key});
 
   @override
   State<MaterialIndicatorPage> createState() => _MaterialIndicatorPageState();

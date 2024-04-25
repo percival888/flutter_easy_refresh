@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CupertinoIndicatorPage extends StatefulWidget {
-  const CupertinoIndicatorPage({Key? key}) : super(key: key);
+  const CupertinoIndicatorPage({super.key});
 
   @override
   State<CupertinoIndicatorPage> createState() => _CupertinoIndicatorPageState();

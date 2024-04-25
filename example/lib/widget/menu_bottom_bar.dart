@@ -9,12 +9,12 @@ class MenuBottomBar extends StatefulWidget {
   final VoidCallback? onLoad;
 
   const MenuBottomBar({
-    Key? key,
+    super.key,
     this.expandedBody,
     this.expandedHeight,
     this.onRefresh,
     this.onLoad,
-  }) : super(key: key);
+  });
 
   @override
   State<MenuBottomBar> createState() => _MenuBottomBarState();

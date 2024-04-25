@@ -5,7 +5,7 @@ import 'package:easy_refresh/easy_refresh.dart';
 import 'package:get/get.dart';
 
 class SpacePage extends StatefulWidget {
-  const SpacePage({Key? key}) : super(key: key);
+  const SpacePage({super.key});
 
   @override
   State<SpacePage> createState() => _SpacePageState();
